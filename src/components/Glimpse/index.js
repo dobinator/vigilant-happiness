@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Glimpse() {
     return (
         <section className="section is-medium">
@@ -11,4 +12,4 @@ function Glimpse() {
     )
 }
 
-export default Glimpse
+export default Glimpse;
