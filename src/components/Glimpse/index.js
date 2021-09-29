@@ -4,7 +4,7 @@ import React from 'react'
 function Glimpse() {
     return (
         <section className="section is-medium">
-        <h1 className="title">Member's stories</h1>
+        <h1 style= {{color:  "#ace5ee", fontSize: "35px"}}>Members stories</h1>
         <div className= "columns">
         <div className ="column">
         <figure>
@@ -12,9 +12,9 @@ function Glimpse() {
         </figure>
         <h4 style={{fontSize:"18px",
                 textTransform: "uppercase",
-                fontWeight:"500"}}>
+                fontWeight:"500", color:  "#ffa500"}}>
                 Kristen Johnson</h4>
-        <p style= {{lineHeight: "1.8"}}>"Et malesuada fames ac turpis egestas maecenas. Posuere urna nec tincidunt praesent semper feugiat. Cras pulvinar mattis nunc sed blandit libero volutpat. Quis hendrerit dolor magna eget. Morbi tristique senectus et netus et malesuada."</p>
+        <p style= {{lineHeight: "1.8", color: "#fff"}}>"Et malesuada fames ac turpis egestas maecenas. Posuere urna nec tincidunt praesent semper feugiat. Cras pulvinar mattis nunc sed blandit libero volutpat. Quis hendrerit dolor magna eget. Morbi tristique senectus et netus et malesuada."</p>
         </div>
         <div className="column">
         <figure>
@@ -22,8 +22,8 @@ function Glimpse() {
         </figure>
         <h4 style={{fontSize:"18px",
                 textTransform: "uppercase", 
-                fontWeight:"500"}}>Jason Song</h4>
-        <p style= {{lineHeight: "1.8"}}>"Sit amet venenatis urna cursus. Ultricies mi quis hendrerit dolor magna eget est. Dictum at tempor commodo ullamcorper a. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Convallis convallis tellus id interdum velit laoreet id donec."</p>
+                fontWeight:"500", color: "#ffa500"}}>Jason Song</h4>
+        <p style= {{lineHeight: "1.8", color: "#fff"}}>"Sit amet venenatis urna cursus. Ultricies mi quis hendrerit dolor magna eget est. Dictum at tempor commodo ullamcorper a. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Convallis convallis tellus id interdum velit laoreet id donec."</p>
         </div>
         <div className="column">
         <figure>
@@ -31,8 +31,8 @@ function Glimpse() {
         </figure>
         <h4 style={{fontSize:"18px",
                 textTransform: "uppercase", 
-                fontWeight:"500"}}>Davin Smith</h4>
-        <p style= {{lineHeight: "1.8"}}>"Sit amet venenatis urna cursus. Ultricies mi quis hendrerit dolor magna eget est. Dictum at tempor commodo ullamcorper a. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Convallis convallis tellus id interdum velit laoreet id donec."</p>
+                fontWeight:"500",color: "#ffa500"}}>Davin Smith</h4>
+        <p style= {{lineHeight: "1.8", color: "#fff"}}>"Sit amet venenatis urna cursus. Ultricies mi quis hendrerit dolor magna eget est. Dictum at tempor commodo ullamcorper a. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Convallis convallis tellus id interdum velit laoreet id donec."</p>
         </div>
 
         </div>

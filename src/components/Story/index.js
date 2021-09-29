@@ -2,7 +2,7 @@ import React from 'react'
 
 function Story() {
     return (
-        <section className="section is-medium " style={{backgroundColor: "#8fbc8f"}}>
+        <section className="section is-medium " style={{backgroundColor: "#f0f8ff"}}>
         <h1 className="title">What you get as a member</h1>
         <div className ="columns">
             <div className = "column">

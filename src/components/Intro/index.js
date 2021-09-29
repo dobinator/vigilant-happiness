@@ -3,7 +3,7 @@ import React from 'react'
 
 function Intro() {
     return (
-        <section className="section is-medium" style={{backgroundColor: "#e3dac9"}}>
+        <section className="section is-medium" style={{backgroundColor: "#f0f8ff"}}>
           <div className = "columns">
           <div className="column">
             <figure>
@@ -21,7 +21,7 @@ function Intro() {
         </div>
 
         <div className="column">
-        <h1 style= {{color: "#253529", fontSize: "60px", fontWeight:"500"}}>Ramblers</h1>
+        <h1 style= {{color: "#483d8b", fontSize: "60px", fontWeight:"500"}}>Ramblers</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div> 

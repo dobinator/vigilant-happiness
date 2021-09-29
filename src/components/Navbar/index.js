@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar(){
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: "#3b7a57"}}>
+        <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"#483d8b" }}>
         <div className="navbar-brand">
           </div>
          
