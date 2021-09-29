@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar(){
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: "#87a96b"}}>
+        <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: "#3b7a57"}}>
         <div className="navbar-brand">
           </div>
          
@@ -36,10 +36,6 @@ function Navbar(){
                 
               </div> 
             </div>
-
-
-
-           
         </div>
       </nav>
 
