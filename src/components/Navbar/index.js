@@ -3,9 +3,8 @@ import React from 'react'
 
 function Navbar(){
     return (
-        <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: "#979aaa"}}>
-        <div className="navbar-brand" style= {{ fontSize: "30px", color: "#fff"}}>
-          Ramblers
+        <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor: "#87a96b"}}>
+        <div className="navbar-brand">
           </div>
          
       
@@ -18,30 +17,29 @@ function Navbar(){
         </div> */}
       
         <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-start">
-            <div className="navbar-item" style= {{color: "#fff"}}>
+        
+            <div className="navbar-item" style= {{color: "#fff", fontSize: "18px", margin: "20px" }}>
             Search
             </div>
       
-            <div className="navbar-item" style= {{color: "#fff"}}>
+            <div className="navbar-item" style= {{color: "#fff",fontSize: "18px", margin: "20px" }}>
              Explore
             </div>
       
-           <div>
-           <ion-icon name="location-outline" style= {{fontSize:"25px", color: "#fff"}}></ion-icon>
+           <div className="navbar-item">
+           <ion-icon name="location-outline" style= {{fontSize:"25px", color: "#fff", margin: "20px" }}></ion-icon>
            </div>
       
           <div className="navbar-end">
             <div className="navbar-item">
-              <div className="buttons">
+             
                 
               </div> 
             </div>
 
 
 
-          </div>
-        </div>
+           
         </div>
       </nav>
 

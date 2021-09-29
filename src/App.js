@@ -3,8 +3,11 @@ import './App.css';
 import React from 'react';
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar"; 
+import Intro from "./components/Intro"; 
 import Landscape from "./components/Landscape"; 
+import Story from "./components/Story";
 import Footer from "./components/Footer";
+import Glimpse from "./components/Glimpse"
 // import 'bulma/css/bulma.min.css';
 
 
@@ -13,11 +16,10 @@ function App() {
     <div className="App">
       <div className="App">
      <Navbar/>
+     <Intro/>
       <Landscape/>
-      {/* <Switch>
-        <Route exact path="/" component=""/>
-        <Route exact path="/" component=""/>
-      </Switch> */}
+      <Story/>
+      <Glimpse/>
       <Footer/>
     </div>
     </div>
