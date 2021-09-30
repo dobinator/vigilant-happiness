@@ -32,7 +32,12 @@ function Navbar(){
       
           <div className="navbar-end">
             <div className="navbar-item">
-             
+            <div className="navbar-item" style= {{color: "#fff",fontSize: "18px", margin: "20px" }}>
+             Join us
+            </div>
+            <div className="navbar-item" style= {{color: "#fff",fontSize: "18px", margin: "20px" }}>
+             Log in
+            </div>
                 
               </div> 
             </div>

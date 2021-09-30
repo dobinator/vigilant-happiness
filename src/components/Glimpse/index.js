@@ -4,7 +4,7 @@ import React from 'react'
 function Glimpse() {
     return (
         <section className="section is-medium">
-        <h1 style= {{color:  "#ace5ee", fontSize: "35px"}}>Members stories</h1>
+        <h1 style= {{color:  "#ace5ee", fontSize: "35px", margin: "20px", padding:"20px"}}>Members stories</h1>
         <div className= "columns">
         <div className ="column">
         <figure>
