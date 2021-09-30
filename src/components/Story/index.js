@@ -3,6 +3,7 @@ import React from 'react'
 function Story() {
     return (
         <section className="section is-medium " style={{backgroundColor: "#f0f8ff"}}>
+             <p style={{fontSize: "150px", fontWeight: "600", top: "30%", right: "20px", color:"#483d8b" }}>02</p>
         <h1 style= {{color:"#000036", fontSize: "35px", margin: "20px", padding:"20px"}}>Perks of Membership </h1>
         <div className ="columns">
             <div className = "column">
@@ -15,7 +16,7 @@ function Story() {
             <div className = "column">  
             <ion-icon name="walk-outline" style= {{fontSize: "60px",color:"#483d8b",lineHeight: "2.0" }}></ion-icon>
             <h3 style={{fontSize: "20px"}}>Family treks</h3>
-            <h3 style={{fontSize: "20px"}}>Engaging Community </h3>
+            <h3 style={{fontSize: "20px"}}>Engaging Community</h3>
             <h3 style={{fontSize: "20px"}}>Accomodations</h3>
             </div>
 

@@ -8,6 +8,7 @@ import Landscape from "./components/Landscape";
 import Story from "./components/Story";
 import Footer from "./components/Footer";
 import Glimpse from "./components/Glimpse"
+import Details from "./components/Details"
 // import 'bulma/css/bulma.min.css';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Landscape/>
       <Intro/>
       <Story/>
+      <Details/>
       <Glimpse/>
       <Footer/>
     </div>
