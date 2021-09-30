@@ -3,8 +3,8 @@ import React from 'react'
 
 function Glimpse() {
     return (
-        <section className="section is-medium">
-           <p style={{fontSize: "150px", fontWeight: "600", top: "30%", right: "20px", color:"#fff" }}>04</p>
+        <section className="section is-medium" style={{backgroundColor: "#483d8b"}}>
+           <p style={{fontSize: "150px", fontWeight: "600", top: "30%", right: "20px", color:"#fff", textAlign:"left" }}>04</p>
         <h1 style= {{color:  "#ace5ee", fontSize: "35px", margin: "20px", padding:"20px"}}>Members stories</h1>
         <div className= "columns">
         <div className ="column">

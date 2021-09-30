@@ -46,32 +46,32 @@ function Navbar(){
 <nav class="level">
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading" style= {{color: "#fff", fontSize: "16px"}}>Search</p>
+      <p style= {{color: "#fff", fontSize: "18px", fontWeight: "600"}}>Search</p>
      
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading"style= {{color: "#fff",fontSize: "16px"}}>Explore</p>
+      <p style= {{color: "#fff",fontSize: "18px",fontWeight: "600"}}>Explore</p>
      
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
-    <p class="heading" style= {{color: "#fff", fontSize:"30px", marginTop: "15px"}}>Ramblers</p>
-      <p class="title"><ion-icon name="location-outline" style= {{fontSize:"40px", color: "#fff", margin: "20px" }}></ion-icon></p>
+    <p style= {{color: "#fff", fontSize:"35px", marginTop: "15px", fontWeight: "600"}}>Ramblers</p>
+      <p><ion-icon name="location-outline" style= {{fontSize:"40px", color: "#fff", margin: "15px" }}></ion-icon></p>
     
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading" style= {{color: "#fff",fontSize: "16px"}}>Sign-up</p>
+      <p style= {{color: "#fff",fontSize: "18px", fontWeight: "600"}}>Sign-up</p>
       
     </div>
   </div>
   <div class="level-item has-text-centered">
     <div>
-      <p class="heading"style= {{color: "#fff",fontSize: "16px"}}>Log-in</p>
+      <p style= {{color: "#fff",fontSize: "18px",fontWeight: "600"}}>Log-in</p>
       
     </div>
   </div>

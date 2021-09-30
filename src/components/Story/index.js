@@ -2,8 +2,8 @@ import React from 'react'
 
 function Story() {
     return (
-        <section className="section is-medium " style={{backgroundColor: "#f0f8ff"}}>
-             <p style={{fontSize: "150px", fontWeight: "600", top: "30%", right: "20px", color:"#483d8b" }}>02</p>
+        <section className="section is-medium " style={{backgroundColor:"#add8e6" }}>
+             <p style={{fontSize: "150px", fontWeight: "600", top: "30%", right: "20px", color:"#483d8b", textAlign:"left" }}>02</p>
         <h1 style= {{color:"#000036", fontSize: "35px", margin: "20px", padding:"20px"}}>Perks of Membership </h1>
         <div className ="columns">
             <div className = "column">
