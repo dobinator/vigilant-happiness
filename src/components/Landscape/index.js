@@ -24,7 +24,7 @@ function Landscape() {
          </figure>
        
          <div>
-           <h1 className="title landscape-title" 
+           <h1 className="title landscape_title" 
            style={{color: "#fff", 
            textAlign:"center", 
            position:"absolute", 

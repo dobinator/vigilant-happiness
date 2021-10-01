@@ -6,7 +6,7 @@ import React from 'react';
 function Details() {
     return (
     <section className="section is-medium"
-        style={{backgroundColor:"#add8e6"}}>
+        style={{backgroundColor:"#e3fafc"}}>
         <div className="columns">
             <div className="column">
     <p style=
@@ -14,14 +14,20 @@ function Details() {
              fontWeight: "600", 
              top: "30%", 
              right: "20px",
-             color:"#ffdf00",
+             color:"#ffa500",
              margin: "0"
             }}
               >03</p>
     <h1 style=
             {{color:"#000039",
-            fontSize:"40px", }}
+            fontSize:"45px",
+            fontWeight:"500" }}
             >The Great Outdoors</h1>
+    <h1 className= "details_subtitle" 
+    style=
+        {{fontSize:"18px",
+        color: "#d2691e"}}
+        >It's calling your name</h1>
     </div>
     <div className= "column">
         <figure>
@@ -29,9 +35,11 @@ function Details() {
             alt="young lady with backpack on in the woods"
             style= 
             {{ 
+            border: "4px dotted #fcc419",
+            borderRadius:"3%",
             textAlign:"center", 
             height:"50%",
-             width:"50%"
+            width:"50%"
           }}/>
         </figure>
     <p style=

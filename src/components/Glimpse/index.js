@@ -12,6 +12,7 @@ function Glimpse() {
         <h2 style= 
             {{color:"#ace5ee", 
             fontSize: "35px", 
+            marginBottom:"10px"
             }}
              >Members stories</h2>
         <div className= "columns">
@@ -25,7 +26,9 @@ function Glimpse() {
         <h4 style={{fontSize:"18px",
                 textTransform: "uppercase",
                 fontWeight:"500",
-                 color:  "#ffa500"}}>
+                 color:  "#ffa500",
+                 margin:"5px"
+                 }}>
                 Kristen Johnson</h4>
         <p style= 
             {{lineHeight: "1.8",
@@ -41,7 +44,9 @@ function Glimpse() {
         </figure>
         <h4 style={{fontSize:"18px",
                 textTransform: "uppercase", 
-                fontWeight:"500", color: "#ffa500"}}
+                fontWeight:"500", 
+                color: "#ffa500",
+                margin:"5px"}}
                 >Jason Song</h4>
         <p style= 
                 {{lineHeight: "1.8",
@@ -53,13 +58,15 @@ function Glimpse() {
             <img src= "/images/guy2.jpg" alt="guy" 
             style= 
             {{height: "200px", 
-            width: "200px",
+             width: "200px",
              borderRadius: "50%" }}/>
         </figure>
-        <h4 style={{fontSize:"18px",
-                textTransform: "uppercase", 
-                fontWeight:"500",
-                color: "#ffa500"}}
+        <h4 
+            style={{fontSize:"18px",
+                    textTransform: "uppercase", 
+                    fontWeight:"500",
+                    color: "#ffa500",
+                    margin:"5px"}}
                 >Davin Smith</h4>
             <p style= 
               {{lineHeight: "1.8", 

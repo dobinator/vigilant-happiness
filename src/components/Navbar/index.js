@@ -58,8 +58,8 @@ function Navbar(){
   </div>
   <div class="level-item has-text-centered">
     <div>
-    <p style= {{color: "#fff", fontSize:"35px", marginTop: "15px", fontWeight: "600"}}>Ramblers</p>
-      <p><ion-icon name="location-outline" style= {{fontSize:"40px", color: "#fff", margin: "15px" }}></ion-icon></p>
+      <p><ion-icon name="location-outline" style= {{fontSize:"35px", color: "#fff", margin: "15px" }}></ion-icon></p>
+    <p style= {{color: "#fff", fontSize:"35px", fontWeight: "600"}}>Ramblers</p>
     
     </div>
   </div>
