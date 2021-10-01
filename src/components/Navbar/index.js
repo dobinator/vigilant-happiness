@@ -2,84 +2,108 @@ import React from 'react'
 // import { Link } from "react-router-dom";
 
 function Navbar(){
-    return (
-      //   <nav className="navbar" role="navigation" aria-label="main navigation" style={{backgroundColor:"#483d8b" }}>
-      //   <div className="navbar-brand">
-      //     </div>
+    return (  
+  <nav className="navbar" style={{backgroundColor: "#483d8b"}} role="navigation" aria-label="main navigation">
+  <div className="navbar-brand">
+    <p className="navbar-item" 
+      style=
+        {{color: "#fff",
+         fontSize: "60px"}}>Ramblers</p>
+   
+    <p role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </p>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div className="navbar-start">
+      <p className="navbar-item"
+      style=
+        {{color: "#fff", 
+          fontSize: "18px", 
+          fontWeight: "600"}}>
+       Search
+      </p>
+
+      <p className="navbar-item" 
+        style=
+        {{color: "#fff", 
+          fontSize: "18px", 
+          fontWeight: "600"}}>
+      Explore
+      </p>
+
+      <div className="navbar-item has-dropdown is-hoverable" >
+        <p className="navbar-link" 
+        style=
+            {{backgroundColor: "#483d8b", 
+              color: "#fff", 
+              fontSize:"18px", 
+              fontWeight: "600"}}>
+          Follow Us
+        </p>
+
+        <div class="navbar-dropdown">
+          <p class="navbar-item"
+          style=
+            {{backgroundColor: "#483d8b",
+             color: "#fff", 
+            fontSize:"22px"}}>
+          <ion-icon name="logo-instagram"></ion-icon>
+          </p>
+          <p className="navbar-item"
+            style=
+            {{backgroundColor: "#483d8b", 
+            color: "#fff", 
+            fontSize:"22px"}}>
+          <ion-icon name="logo-facebook"></ion-icon>
+          </p>
+          <p className="navbar-item"
+          style=
+            {{backgroundColor: "#483d8b", 
+            color: "#fff", 
+            fontSize:"22px"}}>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          </p>
          
-      
-      //     {/* <Link to= "/" 
-      //     role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      //       <span aria-hidden="true"></span>
-      //       <span aria-hidden="true"></span>
-      //       <span aria-hidden="true"></span>
-      //     </Link>
-      //   </div> */}
-      
-      //   <div id="navbarBasicExample" className="navbar-menu">
-        
-      //       <div className="navbar-item" style= {{color: "#fff", fontSize: "18px", margin: "20px" }}>
-      //       Search
-      //       </div>
-      
-      //       <div className="navbar-item" style= {{color: "#fff",fontSize: "18px", margin: "20px" }}>
-      //        Explore
-      //       </div>
-      
-      //      <div className="navbar-item">
-      //      <ion-icon name="location-outline" style= {{fontSize:"30px", color: "#fff", margin: "20px", textAlign:"center" }}></ion-icon>
-      //      </div>
-      
-      //     <div className="navbar-end">
-      //       <div className="navbar-item">
-      //       <div className="navbar-item" style= {{color: "#fff",fontSize: "18px", margin: "20px" }}>
-      //        Join us
-      //       </div>
-      //       <div className="navbar-item" style= {{color: "#fff",fontSize: "18px", margin: "20px" }}>
-      //        Log in
-      //       </div>
-                
-      //         </div> 
-      //       </div>
-      //   </div>
-      // </nav>
-<nav class="level">
-  <div class="level-item has-text-centered">
-    <div>
-      <p style= {{color: "#fff", fontSize: "18px", fontWeight: "600"}}>Search</p>
+          <p class="navbar-item"
+          style=
+            {{backgroundColor: "#483d8b",
+            color: "#fff",
+            fontSize:"18px"}}>
+          <ion-icon name="logo-twitter"></ion-icon>
+          </p>
      
+      </div>
     </div>
+
+    <div className="navbar-end">
+      <div className="navbar-item">
+        <div className="buttons">
+          <p className="button" 
+          style=
+          {{backgroundColor: "#fff3bf",
+          color: "#141414"}}>
+            <strong>Sign up</strong>
+          </p>
+          <p className="button" 
+          style=
+            {{backgroundColor: "#e3fafc",
+            color: "#141414"}}>
+            Log in
+          </p>
+        </div>
+      </div>
+    </div>
+
+
   </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p style= {{color: "#fff",fontSize: "18px",fontWeight: "600"}}>Explore</p>
-     
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p><ion-icon name="location-outline" style= {{fontSize:"35px", color: "#fff", margin: "15px" }}></ion-icon></p>
-    <p style= {{color: "#fff", fontSize:"35px", fontWeight: "600"}}>Ramblers</p>
-    
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p style= {{color: "#fff",fontSize: "18px", fontWeight: "600"}}>Sign-up</p>
-      
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p style= {{color: "#fff",fontSize: "18px",fontWeight: "600"}}>Log-in</p>
-      
-    </div>
   </div>
 </nav>
-
-
-
+      
 )
 }
-
+ 
 export default Navbar; 
