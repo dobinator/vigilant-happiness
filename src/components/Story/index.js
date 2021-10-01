@@ -2,21 +2,28 @@ import React from 'react'
 
 function Story() {
     return (
-        <section className="section is-medium " style={{backgroundColor:"#483d8b" }}>
-             <p style={
-                 {fontSize: "150px", 
+        <section className="container-flex story_background">
+              <div className ="columns" style={{}}>
+                   <div className= "row">
+                   <div className="column">
+        <h1 style=
+                {{fontSize: "150px", 
                  fontWeight: "600", 
                  top: "30%",
                  right: "20px", 
                  color:"#fff", 
                  margin: "0"
-                 }}>02</p>
+                 }}>02</h1>
+
+
         <h1 style= 
         {{color:"#ace5ee", 
         fontSize:"45px",
         fontWeight:"500" 
        }} >The Perks</h1>
-        <div className ="columns">
+      
+       </div>
+       </div>
             <div className = "column">
             <ion-icon name="leaf-outline"
              style= {{fontSize: "60px",
@@ -66,9 +73,9 @@ function Story() {
             <h3 style=  
                 {{fontSize: "22px",
                 color:"#fff"}}>From short treks to Over nighters</h3>
+                
             </div>
-
-        </div>
+            </div>
         </section>
     )
 }

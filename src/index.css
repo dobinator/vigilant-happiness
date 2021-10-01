@@ -25,6 +25,15 @@ h1, h2, h3, h4, h5, h6 {
       box-shadow: 2px 2px 0px #ffa500;
   
 }
+
+
+/* .story_background {
+background-image: url(./public/images/mapHiker.jpg); 
+background-size: cover;
+background-position: top;
+position: relative; 
+
+} */
 /* a:hover img.dropShadow {
   border: solid 1px #ffa500;
   -moz-box-shadow: 1px 1px 5px#ffa500;
